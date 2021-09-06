@@ -95,13 +95,13 @@ export default function Home() {
          
          
          </section>
-         <section className="px-4 relative">
+         <section className="px-4 relative border-t  pt-3">
            <h1 className="font-bold text-lg ">
              What is Your Budget for this service?
            </h1>
            <input type="text" placeholder="Rs" className="outline-none  border-2 px-2 py-2 mt-3 mb-1 rounded" />
-           <p className="text-xs text-green-600 cursor-pointer mb-16">Conver to USD</p>
-           <div className="px-2 absolute right-0 top-24 justify-self-end py-2 w-[200px] rounded-lg text-center bg-green-400 mt-2 text-white font-bold shadow-md cursor-pointer ">
+           <p className="text-xs text-green-600 cursor-pointer mb-8">Conver to USD</p>
+           <div className="px-2 justify-self-end py-2 w-[200px] rounded-lg text-center bg-green-400  mb-10  text-white font-bold shadow-md cursor-pointer ">
               Submit Request
           </div>
          </section>
