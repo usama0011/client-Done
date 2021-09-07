@@ -2,7 +2,7 @@ import { SearchIcon } from "@heroicons/react/outline";
 
 function HeaderBottom() {
   return (
-   <div className="bg-yellow-500 flex flex-col items-center ">
+   <div className="bg-yellow-500 flex flex-col items-center py-4 ">
        <div className=" mt-3 px-6  relative w-full flex-grow max-w-[500px]">
            <div className="flex h-8 bg-white rounded-lg  items-center ">
               <SearchIcon className="h-5 text-gray-500 px-2"/>
